@@ -1,0 +1,36 @@
+title,content
+공통 - 핵심 역량 목표 수립,
+공통 - 핵심 역량 목표 달성률 평가,
+공통 - AI 활용 원칙 수립,
+공통 - 이번 주 할 일(업무) 검토,
+공통 - WIL(What I Learned) 작성,
+공통 - 팀 협업 룰/팁 정리 및 합의,
+basic - 이분탐색 - 이분 탐색 구현,
+basic - 분할정복 - 분할 정복 개념,
+basic - 정렬 - 퀵 정렬 구현,
+basic - 정렬 - 머지 정렬 구현,
+basic - 스택 - 스택 구현 및 활용,
+basic - 큐 - 큐 구현 및 활용,
+basic - 우선순위 큐 - 우선순위 큐(힙) 구현,
+basic - 링크드리스트 - 연결 리스트 구현,
+basic - 해시 테이블 - 해시 테이블 구현,
+이분탐색 - 수 찾기,https://www.acmicpc.net/problem/1920
+분할정복 - 색종이 만들기,https://www.acmicpc.net/problem/2630
+스택 - 스택,https://www.acmicpc.net/problem/10828
+큐 - 카드2,https://www.acmicpc.net/problem/2164
+링크드리스트 - 에디터,https://www.acmicpc.net/problem/1406
+해시 테이블 - 민균이의 비밀번호,https://www.acmicpc.net/problem/9933
+이분탐색 - 두 용액,https://www.acmicpc.net/problem/2470
+분할정복 - 곱셈,https://www.acmicpc.net/problem/1629
+스택 - 탑,https://www.acmicpc.net/problem/2493
+큐 - 뱀,https://www.acmicpc.net/problem/3190
+링크드리스트 - 철도 공사,https://www.acmicpc.net/problem/23309
+해시 테이블 - 세 수의 합,https://www.acmicpc.net/problem/2295
+스택 - 원 영역,https://www.acmicpc.net/problem/10000
+큐 - 가운데를 말해요,https://www.acmicpc.net/problem/1655
+링크드리스트 - malloc,https://www.acmicpc.net/problem/3217
+Extra - 분할정복 - Construct Quad Tree,https://leetcode.com/problems/construct-quad-tree/description/?envType=study-plan-v2&envId=top-interview-150
+Extra - 스택 - Basic Calculator,https://leetcode.com/problems/basic-calculator/?envType=study-plan-v2&envId=top-interview-150
+Extra - 링크드리스트 - LRU Cache,https://leetcode.com/problems/lru-cache/description/?envType=study-plan-v2&envId=top-interview-150
+Extra - 링크드리스트 - Reverse Nodes in k-Group,https://leetcode.com/problems/reverse-nodes-in-k-group/description/?envType=study-plan-v2&envId=top-interview-150
+Extra - 해시 테이블 - Longest Consecutive Sequence,https://leetcode.com/problems/longest-consecutive-sequence/description/?envType=study-plan-v2&envId=top-interview-150

@@ -1,0 +1,26 @@
+# Python 가상환경
+.venv/
+venv/
+
+# Python 캐시
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# GitHub Token (중요!)
+secrets.py
+*.token
+token.txt
+config.json
+.env
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# 로그
+*.log

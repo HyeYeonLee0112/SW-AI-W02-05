@@ -1,0 +1,2 @@
+# GitHub Issue 생성 스크립트 필수 패키지
+requests>=2.31.0

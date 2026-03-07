@@ -1,0 +1,32 @@
+title,content
+공통 - 핵심 역량 목표 수립,
+공통 - 핵심 역량 목표 달성률 평가,
+공통 - AI 활용 원칙 수립,
+공통 - 이번 주 할 일(업무) 검토,
+공통 - WIL(What I Learned) 작성,
+공통 - 팀 협업 룰/팁 정리 및 합의,
+basic - 트리 - 이진 트리 구현,
+basic - 트리 - 이진 탐색 트리(BST) 구현,
+basic - 그래프 - 그래프 표현 방법(인접 리스트/행렬),
+basic - BFS - 너비 우선 탐색 구현,
+basic - DFS - 깊이 우선 탐색 구현,
+basic - 위상정렬 - 위상 정렬 구현,
+트리 - 상근이의 여행,https://www.acmicpc.net/problem/9372
+트리 - 트리 만들기,https://www.acmicpc.net/problem/14244
+그래프 - 점프왕 쩰리,https://www.acmicpc.net/problem/16173
+그래프 - 바이러스,https://www.notion.so/9-2-0f5ef8357953430d85a1fdb88dd585e2?pvs=21
+트리 - 트리의 부모 찾기,https://www.acmicpc.net/problem/11725
+트리 - 이진 검색 트리,https://www.acmicpc.net/problem/5639
+그래프 - DFS와 BFS,https://www.acmicpc.net/problem/1260
+그래프 - 연결 요소의 개수,https://www.acmicpc.net/problem/11724
+위상정렬 - 작업,https://www.acmicpc.net/problem/2056
+BFS - 미로 탐색,https://www.acmicpc.net/problem/2178
+BFS - 동전 2,https://www.acmicpc.net/problem/2294
+DFS - 이분 그래프,https://www.acmicpc.net/problem/1707
+그래프 - 아침 산책,https://www.acmicpc.net/problem/21606
+위상정렬 - 임계경로,https://www.acmicpc.net/problem/1948
+Extra - 트리 - Implement Trie (Prefix Tree),https://leetcode.com/problems/implement-trie-prefix-tree/?envType=study-plan-v2&envId=top-interview-150
+Extra - 트리 - Binary Tree Maximum Path Sum,https://leetcode.com/problems/binary-tree-maximum-path-sum/?envType=study-plan-v2&envId=top-interview-150
+Extra - 트리 - Binary Tree Level Order Traversal,https://www.notion.so/BFS-Binary-Tree-Level-Order-Traversal-2dc4c6f37f8c81e8a43ef61a63571f7f?pvs=21
+Extra - 그래프 - Course Schedule,https://leetcode.com/problems/course-schedule/?envType=study-plan-v2&envId=top-interview-150
+Extra - 그래프 - Word Ladder,https://leetcode.com/problems/word-ladder/description/?envType=study-plan-v2&envId=top-interview-150
