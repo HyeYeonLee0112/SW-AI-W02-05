@@ -44,14 +44,25 @@ def rotate_matrix_90(matrix):
     n = len(matrix)
     
     # TODO: n x n 크기의 새로운 배열을 생성하세요 (0으로 초기화)
-    pass
+    rotated = [[0] * n for _ in range(n)]
         
     # TODO: 원본 배열의 각 요소를 회전된 위치에 배치하세요
     # 힌트: (i, j) 위치의 요소는 회전 후 (j, n-1-i) 위치로 이동
-    pass
-    
+    for row in range(n):
+        for col in range(n):
+            rotated[col][n - row -1] = matrix[row][col]
+
+    # 1r 1c => 1r 3(n)c
+    # c => r
+    # row는 col로 가는데 역?으로..
+
     return rotated
 
+
+    '''
+    # matrix를 해체(*)한 뒤 각 행의 같은 열끼리 묶고(zip), 그 순서를 뒤집음([::-1])
+    return [list(row) for row in zip(*matrix[::-1])]
+    '''
 def print_matrix(matrix):
     """배열을 보기 좋게 출력하는 헬퍼 함수"""
     for row in matrix:
