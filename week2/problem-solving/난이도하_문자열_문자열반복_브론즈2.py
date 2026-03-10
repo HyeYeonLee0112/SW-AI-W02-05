@@ -2,7 +2,6 @@
 # 문제 링크: https://www.acmicpc.net/problem/2675
 import sys
 
-
 t = int(sys.stdin.readline())
 testcase = [ 
     list(sys.stdin.readline().split())
