@@ -65,6 +65,5 @@ def backtracking(numsOfSelected, visitList, minCost):
 
 #시작 도시를 0(A)으로 고정
 visited[0] = 1
-#minCost = 
 print(backtracking(1, [0, ], minCost))
 

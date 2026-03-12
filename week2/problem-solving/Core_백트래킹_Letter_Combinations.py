@@ -31,7 +31,7 @@ def Backtrack(digits, combi):
         return 
 
     digit = digits[len(combi)] #숫자 하나 뽑기
-    alphaString = digit_to_letters[digit] #수에 대응하는 문자열뽑기
+    alphaString = digit_to_letters[digit] #수에 대응하는 문자 뽑기
 
     for alpha in alphaString:
         #1. 선택
