@@ -45,7 +45,7 @@ def binary_search(arr, target):
     while left <= right :
 
         #중간 인덱스의 값 구하기
-        midIndex = round((left+right)/2) #자동으로 반올림 되는가?
+        midIndex = (left+right)//2 #자동으로 반올림 되는가?
         mid = arr[midIndex] 
 
         if target > mid:
