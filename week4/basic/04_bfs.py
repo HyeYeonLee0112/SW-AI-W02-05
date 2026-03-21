@@ -56,7 +56,8 @@ def bfs(graph, start):
     while(queue):
         ## 큐에서 정점 꺼내기
         vertex = queue.popleft()
-        result.append(vertex)
+        result.add(vertex)
+        print(f"{vertex} 처리")
 
         ## 인접한 정점들 확인
         for v in graph[vertex]:
@@ -65,6 +66,7 @@ def bfs(graph, start):
             if(not visited[v]):
                 queue.append(v)
                 visited[v] = True
+                print(f"{v} 저장")
     
     return result
 
