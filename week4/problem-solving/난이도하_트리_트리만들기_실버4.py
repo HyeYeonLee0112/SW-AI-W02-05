@@ -41,5 +41,4 @@ if(leaves1[-1] != (n-1) ):
         u = v
 
 #출력
-for r in result:
-    print(r[0], r[1])
+print('\n'.join(f"{u} {v}" for u, v in result))
