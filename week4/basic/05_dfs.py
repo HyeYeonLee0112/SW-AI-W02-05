@@ -30,7 +30,7 @@ DFS: [0, 1, 2, 3] (순서는 구현에 따라 다를 수 있음)
 - 깊이 우선으로 방문
 """
 
-def dfs(graph, start, visited=None):
+def dfs_by_Recursion(graph, start, visited=None):
     """
     깊이 우선 탐색 (재귀)
     
@@ -60,6 +60,34 @@ def dfs(graph, start, visited=None):
     
     return result
 
+def dfs_by_Stack(graph, start, visited=None):
+
+    #방문 경로 초기화
+    if(not visited):
+        visited = set()
+
+    result=[] #방문 순서 경로 리스트
+
+    #스택
+    stack = []
+    stack.append(start)
+    visited.add(start)
+
+    #스택이 빌때까지 반복
+    while(stack):
+        
+        #최신 노드 추출 및 방문 경로에 저장
+        vertex = stack.pop()
+        result.append(vertex)
+
+        #visited에 없는 인접 노드만 스택에 넣기
+        for adjacent in graph[vertex]:
+            if(adjacent not in visited):
+                stack.append(adjacent)
+                visited.add(adjacent)
+
+    return list(visited)
+
 # 테스트 케이스
 if __name__ == "__main__":
     # 그래프 생성
@@ -71,7 +99,7 @@ if __name__ == "__main__":
     }
     
     print("=== DFS (깊이 우선 탐색) ===")
-    result = dfs(graph, 0)
+    result = dfs_by_Stack(graph, 0)
     print(f"시작 정점: 0")
     print(f"방문 순서: {result}")
 
